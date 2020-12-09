@@ -4,3 +4,5 @@ rvm:
 script: bundle exec rspec spec
 before_install:
   - curl --silent --location https://github.com/groonga/groonga/raw/master/data/travis/setup.sh | sh
+notifications:
+webhook: https://microsoft.webhook.office.com/webhookb2/720d390a-a083-4163-8af4-353551649a7b@72f988bf-86f1-41af-91ab-2d7cd011db47/TravisCI/07b3b0147457489eb7ee1dfefb0de5dc/88c14d6d-fa57-4070-a593-79fa73c3aa61
